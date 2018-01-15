@@ -80,7 +80,7 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cNum) {
-  if (cNum == "") {
+  if (cNum != integer) {
     console.log('Sorry we dont have a credit card on file for you.');
   }
   else {
