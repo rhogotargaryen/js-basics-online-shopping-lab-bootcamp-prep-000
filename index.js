@@ -81,8 +81,8 @@ function removeFromCart(item) {
 
 function placeOrder(cNum) {
   if (cNum == "") {
-    return('Sorry, we don\'t have a credit card on file fo
-r you.');
+    return(`Sorry, we don\'t have a credit card on file fo
+r you.`);
   }
   else {
     var tot = total();
