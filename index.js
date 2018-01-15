@@ -80,7 +80,7 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cNum) {
-  if (isNaN(cNum) == true) {
+  if (isNaN(cNum) === true) {
     console.log(`Sorry, we don\'t have a credit card on file fo
 r you.`);  }
   else {
