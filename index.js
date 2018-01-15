@@ -79,7 +79,7 @@ function removeFromCart(item) {
   console.log(`That item is not in your cart.`);
 }
 
-function placeOrder(cNum) {
+function placeOrder(cNum = "") {
   if (cNum == "") {
     return(`Sorry, we don\'t have a credit card on file fo
 r you.`);
