@@ -85,7 +85,7 @@ function placeOrder(cNum) {
   }
   else {
     var tot = total()
-    console.log(`Your total is $${tot}, which will be charged to the card ${cNum}`);
+    return(`Your total is $${tot}, which will be charged to the card ${cNum}`);
     cart = [];
   }
 }
