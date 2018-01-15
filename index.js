@@ -78,3 +78,13 @@ function removeFromCart(item) {
   }
   console.log(`That item is not in your cart.`);
 }
+
+function placeOrder(cNum = "") {
+  if (cNum == "") {
+    console.log('Sorry we dont have a credit card on file for you.');
+  }
+  else {
+    var tot = total()
+    console.log(`Your total is $${tot}, which will be charged to the card ${cNum}`);
+  }
+}
