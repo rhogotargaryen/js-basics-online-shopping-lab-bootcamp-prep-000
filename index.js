@@ -81,11 +81,12 @@ function removeFromCart(item) {
 
 function placeOrder(cNum) {
   if (cNum == "") {
-    return('Sorry we dont have a credit card on file for you.');
+    return('Sorry, we don\'t have a credit card on file fo
+r you.');
   }
   else {
-    var tot = total()
-    return(`Your total is $${tot}, which will be charged to the card ${cNum}`);
+    var tot = total();
     cart = [];
+    return(`Your total is $${tot}, which will be charged to the card ${cNum}`);
   }
 }
